@@ -25,6 +25,12 @@ import com.java1234.util.ResponseUtil;
 import com.java1234.util.StringUtil;
 import com.opensymphony.xwork2.ActionSupport;
 
+/*
+
+             评论的action
+             日期：20190717
+             @cxl1ove
+*/
 @Controller
 public class CommentAction extends ActionSupport implements ServletRequestAware{
 
