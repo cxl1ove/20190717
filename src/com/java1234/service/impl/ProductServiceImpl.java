@@ -19,7 +19,7 @@ public class ProductServiceImpl implements ProductService{
 
 	@Resource
 	private BaseDAO<Product> baseDAO;
-	
+	/*查找所有的商品20190721*/
 	@Override
 	public List<Product> findProductList(Product s_product, PageBean pageBean) {
 		List<Object> param=new LinkedList<Object>();
@@ -50,7 +50,7 @@ public class ProductServiceImpl implements ProductService{
 			return null;
 		}
 	}
-
+               /*得到商品的总数2019721*/
 	@Override
 	public Long getProductCount(Product s_product) {
 		List<Object> param=new LinkedList<Object>();
